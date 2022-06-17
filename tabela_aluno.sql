@@ -13,3 +13,7 @@ CREATE TABLE aluno (
 );
 
 SELECT * FROM aluno;
+
+INSERT INTO aluno (nome, cpf, observacao, idade, dinheiro, altura, ativo, data_nascimento, hora_aula, matriculado_em)
+VALUES ('Maria', '12345678901', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget erat sed nulla commodo varius quis suscipit ex. Nunc facilisis metus sapien, ac pulvinar nisl facilisis ut. Cras vestibulum euismod feugiat. Mauris viverra nulla ut sem imperdiet, vel condimentum felis faucibus. Nulla facilisis erat quam. Ut eget interdum eros. Vestibulum pretium lacus vel ante commodo, ut efficitur sapien fringilla. Vestibulum interdum tristique justo in feugiat. Ut a imperdiet diam. Morbi finibus ultrices tortor, ac posuere nunc blandit at. Nunc at libero justo.
+', 32, 5000.00, 1.70, TRUE, '1990-05-24', '19:38:00', '2022-06-17 19:38:00');
