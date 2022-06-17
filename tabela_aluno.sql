@@ -28,3 +28,7 @@ SET  nome = 'Mariana',
 	 data_nascimento = '1994-06-20', 
 	 hora_aula = '19:00:00', 
 	 matriculado_em = '2022-06-16 16:30:00'
+
+DELETE
+FROM aluno
+WHERE nome = 'Mariana';
