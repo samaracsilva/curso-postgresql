@@ -32,3 +32,8 @@ SET  nome = 'Mariana',
 DELETE
 FROM aluno
 WHERE nome = 'Mariana';
+
+INSERT INTO aluno (nome) VALUES ('Vinícius Dias');
+INSERT INTO aluno (nome) VALUES ('Nico');
+INSERT INTO aluno (nome) VALUES ('João Roberto');
+INSERT INTO aluno (nome) VALUES ('Diego');
