@@ -3,3 +3,9 @@ FROM aluno
 
 SELECT * FROM aluno
 WHERE nome = 'Maria'
+
+SELECT * FROM aluno
+WHERE nome LIKE 'Maria'
+
+SELECT * FROM aluno
+WHERE nome NOT LIKE '_aria'
